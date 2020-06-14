@@ -1,0 +1,20 @@
+program Project1;
+
+uses
+  Vcl.Forms,
+  Main in 'Main.pas' {Form2},
+  Processing in 'Processing.pas' {Form3},
+  Parameters in 'Parameters.pas' {Form_params},
+  ABOUT in 'ABOUT.pas' {AboutBox};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormMain, FormMain);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm_params, Form_params);
+  Application.CreateForm(TAboutBox, AboutBox);
+  Application.Run;
+end.

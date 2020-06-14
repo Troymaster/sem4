@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899/12/30 00:00:00.000.592,C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\Unit4.pas=D:\Dropbox\Лабы\4сем\ПИ\Lab4\Unit4.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.392,C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Dropbox\Лабы\4сем\ПИ\Lab4\Project1.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.826,C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\Dropbox\Лабы\4сем\ПИ\Lab4\Unit3.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.384,=C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.386,=C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.075,C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\Dropbox\Лабы\4сем\ПИ\Lab4\Unit2.dfm</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.592,C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\Unit4.dfm=D:\Dropbox\Лабы\4сем\ПИ\Lab4\Unit4.dfm</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.595,=C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\ABOUT.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.798,C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\ABOUT.pas=D:\Dropbox\Лабы\4сем\ПИ\Lab4\ABOUT.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.826,C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\Unit3.dfm=D:\Dropbox\Лабы\4сем\ПИ\Lab4\Unit3.dfm</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.806,=C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.798,C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\ABOUT.dfm=D:\Dropbox\Лабы\4сем\ПИ\Lab4\ABOUT.dfm</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.075,C:\Users\Samuel\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\Dropbox\Лабы\4сем\ПИ\Lab4\Unit2.pas</Transaction>
+    <Transaction>2020/06/14 00:50:13.000.247,W:\Programming\Univercity\sem4\Lab04 D SDI\Unit2.dfm=W:\Programming\Univercity\sem4\Lab04 D SDI\Main.dfm</Transaction>
+    <Transaction>2020/06/14 00:50:13.000.247,W:\Programming\Univercity\sem4\Lab04 D SDI\Unit2.pas=W:\Programming\Univercity\sem4\Lab04 D SDI\Main.pas</Transaction>
+    <Transaction>2020/06/14 00:55:53.000.219,W:\Programming\Univercity\sem4\Lab04 D SDI\Unit3.pas=W:\Programming\Univercity\sem4\Lab04 D SDI\Processing.pas</Transaction>
+    <Transaction>2020/06/14 00:55:53.000.219,W:\Programming\Univercity\sem4\Lab04 D SDI\Unit3.dfm=W:\Programming\Univercity\sem4\Lab04 D SDI\Processing.dfm</Transaction>
+    <Transaction>2020/06/14 00:56:01.000.397,W:\Programming\Univercity\sem4\Lab04 D SDI\Unit4.pas=W:\Programming\Univercity\sem4\Lab04 D SDI\Parameters.pas</Transaction>
+    <Transaction>2020/06/14 00:56:01.000.397,W:\Programming\Univercity\sem4\Lab04 D SDI\Unit4.dfm=W:\Programming\Univercity\sem4\Lab04 D SDI\Parameters.dfm</Transaction>
+    <Transaction>2020/06/14 03:12:51.000.481,=W:\Programming\Univercity\sem4\Lab04 D SDI\Unit1.pas</Transaction>
+    <Transaction>2020/06/14 03:13:31.000.196,W:\Programming\Univercity\sem4\Lab04 D SDI\Unit1.dfm=W:\Programming\Univercity\sem4\Lab04 D SDI\Output.dfm</Transaction>
+    <Transaction>2020/06/14 03:13:31.000.196,W:\Programming\Univercity\sem4\Lab04 D SDI\Unit1.pas=W:\Programming\Univercity\sem4\Lab04 D SDI\Output.pas</Transaction>
+    <Transaction>2020/06/14 08:24:09.373,W:\Programming\Univercity\sem4\Lab04 D SDI\Lab04.dproj=W:\Programming\Univercity\sem4\Lab04 D SDI\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,140 @@
+// ---------------------------------------------------------------------------
+
+#include <vcl.h>
+#include <vector>
+#pragma hdrstop
+
+#include "Unit1.h"
+#include "Unit2.h"
+#include "Output.h"
+using namespace std;
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma link "cspin"
+#pragma resource "*.dfm"
+TForm1 *Form1;
+int a = 0, b = 10;
+vector<int> stolb;
+
+// ---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner) : TForm(Owner)
+{
+}
+// ---------------------------------------------------------------------------
+
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+	Form1->TextProg->Caption = "Массив состоит из целых чисел. Определить номера столбцов,\nсумма элементов в которых находится в заданном диапозоне";
+	int n = 2;
+	SG1->ColCount = n + 1;
+	for (int i = 1; i < SG1->ColCount; i++)
+		SG1->Cells[i][0] = i;
+	SG1->RowCount = n + 1;
+	for (int i = 1; i < SG1->RowCount; i++)
+		SG1->Cells[0][i] = i;
+}
+// ---------------------------------------------------------------------------
+
+void __fastcall TForm1::ProccButtClick(TObject *Sender)
+{
+	int S, P, O;
+	a = CLeftEdit->Value;
+	b = CRightEdit->Value;
+	if (b < a)
+		ShowMessage("Ошибка, 'B' должно быть больше или равно 'A'!");
+	else
+	{
+		P = 0; O = 0;
+		for (int j = 1; j < SG1->ColCount; j++)
+		{
+			S = 0;
+			for (int i = 1; i < SG1->RowCount; i++)
+			{
+				if (SG1->Cells[j][i] == "" || SG1->Cells[j][i] == "-")
+					SG1->Cells[j][i] = 0;
+				S += StrToInt(SG1->Cells[j][i]);
+				if (SG1->Cells[j][i]>0)
+					P+=1;
+				else
+					O+=1;
+			}
+			if (S >= a && S <= b)
+				stolb.push_back(j);
+		}
+		if (stolb.empty())
+		{
+			Form_output->Show();
+			Form_output->AddResLabel->Caption="Нет столбцов, сумма элементов в которых\nнаходится в заданном диапозоне.";
+		}
+		else
+		{
+			Form_output->Show();
+			if (IntToStr(stolb[0]) == 2)
+			   Form_output->AddResLabel->Caption="Во " + IntToStr(stolb[0]);
+			else
+				Form_output->AddResLabel->Caption="В " + IntToStr(stolb[0]);
+			for (int i = 1; i<stolb.size(); i++)
+			{
+				Form_output->AddResLabel->Caption = Form_output->AddResLabel->Caption + " ," + IntToStr(stolb[i]);
+			}
+			if (stolb.size() == 1) Form_output->AddResLabel->Caption = Form_output->AddResLabel->Caption + " столбце";
+			else Form_output->AddResLabel->Caption = Form_output->AddResLabel->Caption + " столбцах";
+			Form_output->AddResLabel->Caption = Form_output->AddResLabel->Caption + " сумма элементов\nнаходится в заданном диапозоне.";
+		}
+		stolb.clear();
+		if (Form_params->CB1->Checked)
+		{
+			Form_output->ClientHeight = 189;
+			Form_output->Butt->Top = 144;
+			Form_output->AddSecondLabel->Visible = true;
+			Form_output->OutSecondLabel->Visible = true;
+			for (int j = 1; j < SG1->ColCount; j++)
+				for (int i = 1; i < SG1->RowCount; i++)
+					if (SG1->Cells[j][i]>0)
+						P+=1;
+					else O+=1;
+			if (P>O)
+				Form_output->AddSecondLabel->Caption = "В заданом массиве больше половины\nположительных элементов.";
+			else
+				Form_output->AddSecondLabel->Caption = "В заданом массиве не больше половины\nположительных элементов.";
+		}
+		else
+		{
+            //Form_output->AddResLabel->Caption = "";
+			Form_output->AddSecondLabel->Caption = "";
+			Form_output->AddSecondLabel->Visible = false;
+			Form_output->OutSecondLabel->Visible = false;
+			Form_output->ClientHeight = 120;
+			Form_output->Butt->Top = 80;
+        }
+	}
+}
+// ---------------------------------------------------------------------------
+
+void __fastcall TForm1::SG1KeyPress(TObject *Sender, System::WideChar &Key)
+{
+	if (!(Key >= '0' && Key <= '9') && (Key != '-') && (Key != VK_BACK))
+	{
+		Key = 0;
+	}
+}
+// ---------------------------------------------------------------------------
+
+void __fastcall TForm1::CRowEditChange(TObject *Sender)
+{
+	int n = CRowEdit->Value;
+	SG1->RowCount = n + 1;
+	for (int i = 1; i < SG1->RowCount; i++)
+		SG1->Cells[0][i] = i;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::CColEditChange(TObject *Sender)
+{
+	int n = CColEdit->Value;
+	SG1->ColCount = n + 1;
+	for (int i = 1; i < SG1->ColCount; i++)
+		SG1->Cells[i][0] = i;
+}
+//---------------------------------------------------------------------------
+

@@ -1,0 +1,54 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Main.h"
+#include "Unit1.h"
+#include "ABOUT.h"
+#include "Unit2.h"
+#include "Output.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm4 *Form4;
+int k = 0;
+//---------------------------------------------------------------------------
+__fastcall TForm4::TForm4(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm4::Exit1Click(TObject *Sender)
+{
+	Close();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm4::Processing1Click(TObject *Sender)
+{
+	Form1->Show();
+	k = 1;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm4::About1Click(TObject *Sender)
+{
+	AboutBox->ShowModal();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm4::Dialog1Click(TObject *Sender)
+{
+	Form3->Show();
+	Form3->Top = 50;
+	Form3->Left = 10;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm4::Output1Click(TObject *Sender)
+{
+	if (k == 0)
+		ShowMessage("Программа ещё не выполнялась\nРезультата нет");
+	else
+		Form5->Show();
+}
+//---------------------------------------------------------------------------
+

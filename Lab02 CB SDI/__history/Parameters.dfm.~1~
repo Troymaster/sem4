@@ -1,0 +1,32 @@
+object Form_params: TForm_params
+  Left = 0
+  Top = 0
+  Caption = 'Parameters'
+  ClientHeight = 92
+  ClientWidth = 467
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  PixelsPerInch = 96
+  TextHeight = 19
+  object CB1: TCheckBox
+    Left = 8
+    Top = 8
+    Width = 451
+    Height = 73
+    Caption = 'Create array from first positive number in each row'
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clHotLight
+    Font.Height = -20
+    Font.Name = 'MS Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    WordWrap = True
+  end
+end
