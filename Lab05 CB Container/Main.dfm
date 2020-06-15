@@ -88,13 +88,14 @@ object Form_main: TForm_main
       TabOrder = 3
       OnClick = Button_AddClick
     end
-    object Button_GenRand: TButton
-      Left = 20
+    object Button_Load: TButton
+      Left = 12
       Top = 170
       Width = 125
       Height = 25
-      Caption = 'Generate Random Data'
+      Caption = 'Load Some Data'
       TabOrder = 4
+      OnClick = Button_LoadClick
     end
     object Button_ClearList: TButton
       Left = 74

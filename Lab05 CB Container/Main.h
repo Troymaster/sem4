@@ -9,6 +9,8 @@
 #include <Vcl.Forms.hpp>
 #include <Vcl.Grids.hpp>
 #include <Vcl.Menus.hpp>
+#include <fstream>
+#include <stdio.h>
 //---------------------------------------------------------------------------
 class TForm_main : public TForm
 {
@@ -24,7 +26,7 @@ __published:	// IDE-managed Components
 	TEdit *Edit_Center;
 	TButton *Button_Check;
 	TButton *Button_Add;
-	TButton *Button_GenRand;
+	TButton *Button_Load;
 	TGroupBox *GB_Answer;
 	TLabel *Label_Answer;
 	TButton *Button_ClearList;
@@ -39,6 +41,7 @@ __published:	// IDE-managed Components
 	void __fastcall Button_AddClick(TObject *Sender);
 	void __fastcall Button_ClearInputClick(TObject *Sender);
 	void __fastcall Button_CheckClick(TObject *Sender);
+	void __fastcall Button_LoadClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm_main(TComponent* Owner);

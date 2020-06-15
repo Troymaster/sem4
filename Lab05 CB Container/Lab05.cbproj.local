@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2020/06/15 01:52:03.968,=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Project1PCH1.h</Transaction>
-    <Transaction>2020/06/15 01:52:04.153,=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.cpp</Transaction>
-    <Transaction>2020/06/15 01:52:11.119,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\LAb05PCH1.h=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Project1PCH1.h</Transaction>
-    <Transaction>2020/06/15 01:52:11.126,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\LAb05.cbproj=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Project1.cbproj</Transaction>
-    <Transaction>2020/06/15 01:52:40.219,W:\Programming\Univercity\sem4\Lab05 CB Container\Main.h=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.h</Transaction>
-    <Transaction>2020/06/15 01:52:40.219,W:\Programming\Univercity\sem4\Lab05 CB Container\Main.cpp=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.cpp</Transaction>
-    <Transaction>2020/06/15 01:52:40.219,W:\Programming\Univercity\sem4\Lab05 CB Container\Main.dfm=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.dfm</Transaction>
-    <Transaction>2020/06/15 01:52:45.588,W:\Programming\Univercity\sem4\Lab05 CB Container\LAb05PCH1.h=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\LAb05PCH1.h</Transaction>
-    <Transaction>2020/06/15 01:52:48.081,W:\Programming\Univercity\sem4\Lab05 CB Container\LAb05.cbproj=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\LAb05.cbproj</Transaction>
-    <Transaction>2020/06/15 01:53:04.953,=W:\Programming\Univercity\sem4\Lab05 CB Container\ABOUT.cpp</Transaction>
-    <Transaction>2020/06/15 03:17:58.586,=W:\Programming\Univercity\sem4\Lab05 CB Container\Unit1.cpp</Transaction>
-    <Transaction>2020/06/15 03:18:15.049,W:\Programming\Univercity\sem4\Lab05 CB Container\Container.cpp=W:\Programming\Univercity\sem4\Lab05 CB Container\Unit1.cpp</Transaction>
-    <Transaction>2020/06/15 03:18:15.049,W:\Programming\Univercity\sem4\Lab05 CB Container\Container.h=W:\Programming\Univercity\sem4\Lab05 CB Container\Unit1.h</Transaction>
-    <Transaction>2020/06/15 11:13:52.050,W:\Programming\Univercity\sem4\Lab05 CB Container\Laab05PCH1.h=W:\Programming\Univercity\sem4\Lab05 CB Container\LAb05PCH1.h</Transaction>
-    <Transaction>2020/06/15 11:13:52.080,W:\Programming\Univercity\sem4\Lab05 CB Container\Laab05.cbproj=W:\Programming\Univercity\sem4\Lab05 CB Container\LAb05.cbproj</Transaction>
-    <Transaction>2020/06/15 11:13:56.240,W:\Programming\Univercity\sem4\Lab05 CB Container\Lab05PCH1.h=W:\Programming\Univercity\sem4\Lab05 CB Container\Laab05PCH1.h</Transaction>
-    <Transaction>2020/06/15 11:13:56.270,W:\Programming\Univercity\sem4\Lab05 CB Container\Lab05.cbproj=W:\Programming\Univercity\sem4\Lab05 CB Container\Laab05.cbproj</Transaction>
+	<Transactions>
+    <Transaction>2020/06/15 01:52:03.000.968,=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Project1PCH1.h</Transaction>
+    <Transaction>2020/06/15 01:52:04.000.153,=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.cpp</Transaction>
+    <Transaction>2020/06/15 01:52:11.000.119,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Project1PCH1.h=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\LAb05PCH1.h</Transaction>
+    <Transaction>2020/06/15 01:52:11.000.126,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Project1.cbproj=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\LAb05.cbproj</Transaction>
+    <Transaction>2020/06/15 01:52:40.000.219,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.cpp=W:\Programming\Univercity\sem4\Lab05 CB Container\Main.cpp</Transaction>
+    <Transaction>2020/06/15 01:52:40.000.219,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.dfm=W:\Programming\Univercity\sem4\Lab05 CB Container\Main.dfm</Transaction>
+    <Transaction>2020/06/15 01:52:40.000.219,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.h=W:\Programming\Univercity\sem4\Lab05 CB Container\Main.h</Transaction>
+    <Transaction>2020/06/15 01:52:45.000.588,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\LAb05PCH1.h=W:\Programming\Univercity\sem4\Lab05 CB Container\LAb05PCH1.h</Transaction>
+    <Transaction>2020/06/15 01:52:48.000.081,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\LAb05.cbproj=W:\Programming\Univercity\sem4\Lab05 CB Container\LAb05.cbproj</Transaction>
+    <Transaction>2020/06/15 01:53:04.000.953,=W:\Programming\Univercity\sem4\Lab05 CB Container\ABOUT.cpp</Transaction>
+    <Transaction>2020/06/15 03:17:58.000.586,=W:\Programming\Univercity\sem4\Lab05 CB Container\Unit1.cpp</Transaction>
+    <Transaction>2020/06/15 03:18:15.000.049,W:\Programming\Univercity\sem4\Lab05 CB Container\Unit1.cpp=W:\Programming\Univercity\sem4\Lab05 CB Container\Container.cpp</Transaction>
+    <Transaction>2020/06/15 03:18:15.000.049,W:\Programming\Univercity\sem4\Lab05 CB Container\Unit1.h=W:\Programming\Univercity\sem4\Lab05 CB Container\Container.h</Transaction>
+    <Transaction>2020/06/15 11:13:52.000.080,W:\Programming\Univercity\sem4\Lab05 CB Container\LAb05.cbproj=W:\Programming\Univercity\sem4\Lab05 CB Container\Laab05.cbproj</Transaction>
+    <Transaction>2020/06/15 11:13:52.000.050,W:\Programming\Univercity\sem4\Lab05 CB Container\LAb05PCH1.h=W:\Programming\Univercity\sem4\Lab05 CB Container\Laab05PCH1.h</Transaction>
+    <Transaction>2020/06/15 11:13:56.000.240,W:\Programming\Univercity\sem4\Lab05 CB Container\Laab05PCH1.h=W:\Programming\Univercity\sem4\Lab05 CB Container\Lab05PCH1.h</Transaction>
+    <Transaction>2020/06/15 11:13:56.000.270,W:\Programming\Univercity\sem4\Lab05 CB Container\Laab05.cbproj=W:\Programming\Univercity\sem4\Lab05 CB Container\Lab05.cbproj</Transaction>
   </Transactions>
 </BorlandProject>
