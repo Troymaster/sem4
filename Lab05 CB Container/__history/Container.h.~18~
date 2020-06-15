@@ -1,0 +1,23 @@
+//---------------------------------------------------------------------------
+
+#ifndef ContainerH
+#define ContainerH
+//---------------------------------------------------------------------------
+#include <String>
+#include <list>
+using namespace std;
+//---------------------------------------------------------------------------
+struct TRegion {
+	string region,center;
+};
+
+class TRegionBook {
+public:
+	list <TRegion> book;
+	bool Contain(TRegion region);
+private:
+
+};
+
+//---------------------------------------------------------------------------
+#endif

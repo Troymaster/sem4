@@ -1,0 +1,13 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "Container.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+bool TRegionBook::Contain(TRegion& region){
+for (list <TRegion>::iterator i = this->book.begin(); i != this->book.end(); ++i)
+	if(*i==region) return true;
+return false;
+}
