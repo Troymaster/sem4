@@ -7,47 +7,33 @@
 #include <Vcl.Controls.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
+#include <Vcl.Grids.hpp>
 #include <Vcl.Menus.hpp>
-<<<<<<< Updated upstream:Lab03 CB MDI/__history/Main.h.~5~
-=======
 #include <fstream>
->>>>>>> Stashed changes:Lab05 CB Container/Main.h
+#include <stdio.h>
 //---------------------------------------------------------------------------
 class TForm_main : public TForm
 {
 __published:	// IDE-managed Components
+	TStringGrid *SG;
 	TMainMenu *MainMenu;
-	TMenuItem *File;
-	TMenuItem *Exit;
-	TMenuItem *Task;
-	TMenuItem *Parameters;
-	TMenuItem *Processing;
 	TMenuItem *Help;
-	TMenuItem *About;
-	TMenuItem *Output;
-	TMenuItem *Windows1;
-	TMenuItem *Cascade1;
-	TMenuItem *ile1;
-	TMenuItem *CloseCurrent1;
-	TMenuItem *CloseAll1;
-	TMenuItem *MinimizeAll1;
-	TMenuItem *Next1;
-	TMenuItem *Previuos1;
+	TMenuItem *Task;
+	TGroupBox *GB_Input;
+	TLabel *Label_Region;
+	TLabel *Label_Center;
+	TEdit *Edit_Region;
+	TEdit *Edit_Center;
+	TButton *Button_Check;
+	TButton *Button_Add;
+	TButton *Button_Load;
+	TGroupBox *GB_Answer;
+	TLabel *Label_Answer;
+	TButton *Button_ClearList;
+	TButton *Button_ClearInput;
+
 	void __fastcall ExitClick(TObject *Sender);
-	void __fastcall ProcessingClick(TObject *Sender);
 	void __fastcall AboutClick(TObject *Sender);
-<<<<<<< Updated upstream:Lab03 CB MDI/__history/Main.h.~5~
-	void __fastcall ParametersClick(TObject *Sender);
-	void __fastcall OutputClick(TObject *Sender);
-	void __fastcall Cascade1Click(TObject *Sender);
-	void __fastcall ile1Click(TObject *Sender);
-	void __fastcall Form_main_Create(TObject *Sender);
-	void __fastcall CloseCurrent1Click(TObject *Sender);
-	void __fastcall CloseAll1Click(TObject *Sender);
-	void __fastcall MinimizeAll1Click(TObject *Sender);
-	void __fastcall Next1Click(TObject *Sender);
-	void __fastcall Previuos1Click(TObject *Sender);
-=======
 	void __fastcall TaskClick(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall FormResize(TObject *Sender);
@@ -56,8 +42,7 @@ __published:	// IDE-managed Components
 	void __fastcall Button_ClearInputClick(TObject *Sender);
 	void __fastcall Button_CheckClick(TObject *Sender);
 	void __fastcall Button_LoadClick(TObject *Sender);
-	void __fastcall SG_DblClick(TObject *Sender);
->>>>>>> Stashed changes:Lab05 CB Container/Main.h
+    void __fastcall Button_LoaddClick(TObject *Sender)
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm_main(TComponent* Owner);
