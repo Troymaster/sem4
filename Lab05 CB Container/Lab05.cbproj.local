@@ -1,2 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject/>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/06/20 10:08:03.000.642,=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.cpp</Transaction>
+    <Transaction>2020/06/20 10:08:03.000.424,=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Project1PCH1.h</Transaction>
+    <Transaction>2020/06/20 10:08:23.000.548,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Project1.cbproj=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Lab05.cbproj</Transaction>
+    <Transaction>2020/06/20 10:08:23.000.536,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Project1PCH1.h=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Lab05PCH1.h</Transaction>
+    <Transaction>2020/06/20 10:08:31.000.999,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.cpp=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Main.cpp</Transaction>
+    <Transaction>2020/06/20 10:08:31.000.999,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.dfm=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Main.dfm</Transaction>
+    <Transaction>2020/06/20 10:08:31.000.999,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Unit1.h=Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Main.h</Transaction>
+    <Transaction>2020/06/20 10:09:07.000.068,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Main.h=W:\Programming\Univercity\sem4\Lab05 CB Container\Main.h</Transaction>
+    <Transaction>2020/06/20 10:09:07.000.068,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Main.dfm=W:\Programming\Univercity\sem4\Lab05 CB Container\Main.dfm</Transaction>
+    <Transaction>2020/06/20 10:09:07.000.068,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Main.cpp=W:\Programming\Univercity\sem4\Lab05 CB Container\Main.cpp</Transaction>
+    <Transaction>2020/06/20 10:09:18.000.914,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Lab05PCH1.h=W:\Programming\Univercity\sem4\Lab05 CB Container\Lab05PCH1.h</Transaction>
+    <Transaction>2020/06/20 10:09:26.000.064,Y:\YandexDisk\Programming\Univercity\sem4_v2.0\CPP\Lab05.cbproj=W:\Programming\Univercity\sem4\Lab05 CB Container\Lab05.cbproj</Transaction>
+    <Transaction>2020/06/20 10:10:02.000.763,=W:\Programming\Univercity\sem4\Lab05 CB Container\Container.cpp</Transaction>
+    <Transaction>2020/06/20 10:12:23.000.314,=W:\Programming\Univercity\sem4\Lab05 CB Container\ABOUT.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
