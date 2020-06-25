@@ -1,0 +1,4 @@
+Russia|Losiniy ostrov|112
+Russia|Ural|1024
+Russia|Kamchatka|796
+USA|Yellowstone|508

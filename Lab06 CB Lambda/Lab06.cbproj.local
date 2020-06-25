@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/06/22 10:51:29.000.718,=W:\Programming\Project1PCH1.h</Transaction>
+    <Transaction>2020/06/22 10:51:30.000.135,=W:\Programming\Unit1.cpp</Transaction>
+    <Transaction>2020/06/22 10:52:00.000.844,W:\Programming\Lab06.cbproj=W:\Programming\Project1.cbproj</Transaction>
+    <Transaction>2020/06/22 10:52:00.000.837,W:\Programming\Lab06PCH1.h=W:\Programming\Project1PCH1.h</Transaction>
+    <Transaction>2020/06/22 10:52:09.000.972,W:\Programming\Main.h=W:\Programming\Unit1.h</Transaction>
+    <Transaction>2020/06/22 10:52:09.000.972,W:\Programming\Main.cpp=W:\Programming\Unit1.cpp</Transaction>
+    <Transaction>2020/06/22 10:52:09.000.972,W:\Programming\Main.dfm=W:\Programming\Unit1.dfm</Transaction>
+    <Transaction>2020/06/22 10:53:02.000.426,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Main.dfm=W:\Programming\Main.dfm</Transaction>
+    <Transaction>2020/06/22 10:53:02.000.426,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Main.cpp=W:\Programming\Main.cpp</Transaction>
+    <Transaction>2020/06/22 10:53:02.000.426,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Main.h=W:\Programming\Main.h</Transaction>
+    <Transaction>2020/06/22 10:53:07.000.939,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Lab06PCH1.h=W:\Programming\Lab06PCH1.h</Transaction>
+    <Transaction>2020/06/22 10:53:12.000.056,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Lab06.cbproj=W:\Programming\Lab06.cbproj</Transaction>
+    <Transaction>2020/06/22 10:55:25.000.590,=W:\Programming\Univercity\sem4\Lab06 CB Lambda\ABOUT.cpp</Transaction>
+    <Transaction>2020/06/22 10:57:57.000.198,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Aboutt.dfm=W:\Programming\Univercity\sem4\Lab06 CB Lambda\ABOUT.dfm</Transaction>
+    <Transaction>2020/06/22 10:57:57.000.198,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Aboutt.cpp=W:\Programming\Univercity\sem4\Lab06 CB Lambda\ABOUT.cpp</Transaction>
+    <Transaction>2020/06/22 10:57:57.000.198,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Aboutt.h=W:\Programming\Univercity\sem4\Lab06 CB Lambda\ABOUT.h</Transaction>
+    <Transaction>2020/06/22 10:58:02.000.960,W:\Programming\Univercity\sem4\Lab06 CB Lambda\About.cpp=W:\Programming\Univercity\sem4\Lab06 CB Lambda\Aboutt.cpp</Transaction>
+    <Transaction>2020/06/22 10:58:02.000.960,W:\Programming\Univercity\sem4\Lab06 CB Lambda\About.h=W:\Programming\Univercity\sem4\Lab06 CB Lambda\Aboutt.h</Transaction>
+    <Transaction>2020/06/22 10:58:02.000.960,W:\Programming\Univercity\sem4\Lab06 CB Lambda\About.dfm=W:\Programming\Univercity\sem4\Lab06 CB Lambda\Aboutt.dfm</Transaction>
+    <Transaction>2020/06/22 11:08:16.000.411,=W:\Programming\Univercity\sem4\Lab06 CB Lambda\Unit1.cpp</Transaction>
+    <Transaction>2020/06/25 00:55:21.000.777,=W:\Programming\Univercity\sem4\Lab06 CB Lambda\Unit2.cpp</Transaction>
+    <Transaction>2020/06/25 01:03:14.000.447,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Unit2.h=W:\Programming\Univercity\sem4\Lab06 CB Lambda\Task.h</Transaction>
+    <Transaction>2020/06/25 01:03:14.000.447,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Unit2.dfm=W:\Programming\Univercity\sem4\Lab06 CB Lambda\Task.dfm</Transaction>
+    <Transaction>2020/06/25 01:03:14.000.447,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Unit2.cpp=W:\Programming\Univercity\sem4\Lab06 CB Lambda\Task.cpp</Transaction>
+    <Transaction>2020/06/25 12:39:57.000.382,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Unit1.h=W:\Programming\Univercity\sem4\Lab06 CB Lambda\BookDeclaration.h</Transaction>
+    <Transaction>2020/06/25 12:39:57.000.382,W:\Programming\Univercity\sem4\Lab06 CB Lambda\Unit1.cpp=W:\Programming\Univercity\sem4\Lab06 CB Lambda\BookDeclaration.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
